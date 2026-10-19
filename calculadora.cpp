@@ -21,12 +21,11 @@ int main(){
             resultado = n1 + n1;
             cout << "El resultado de la suma es:" << resultado << endl;
             break;
+        case 2:
+            resultado = n1 - n2;
+            cout << "El resultado de la resta es:" << resultado << endl;
+            break;
     }
-
-
-
-
-
 
 
 
