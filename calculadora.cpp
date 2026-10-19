@@ -11,12 +11,21 @@ int main(){
    cout << "3. Multiplicacion"<<endl;
    cout << "4. Division"<<endl;
    cin >> opcion;
+   
 
 
-
-
-
-
+   switch (opcion)
+   
+    {
+        case 1:
+            resultado = n1 + n1;
+            cout << "El resultado de la suma es:" << resultado << endl;
+            break;
+        case 2:
+            resultado = n1 - n2;
+            cout << "El resultado de la resta es:" << resultado << endl;
+            break;
+    }
 
 
 
